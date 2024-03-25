@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* HEADER START */ 
@@ -23,6 +24,12 @@
 /* MAIN END */
 
 /* FOOTER START */
+
+footer {
+    background-image: url(./assets_for_project1/photoshop/design-assets/bgk-footer.png);
+    background-size: cover;
+    background-position: center;
+}
 
 /* FOOTER END */
 
