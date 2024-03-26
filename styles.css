@@ -13,6 +13,40 @@
 /* MAIN START */
 
 /* our story */
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: lightblue;
+    text-decoration: none;
+    border: 1px solid lightblue;
+    font-weight: bold;
+}
+
+.our-story {
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.big-logo {
+    flex: 0 0 auto;
+    margin-right: 50px;
+}
+
+.story {
+    flex : 1;
+   
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+p {
+    margin-bottom: 50px;
+}
 
 /* Expertise */
 
