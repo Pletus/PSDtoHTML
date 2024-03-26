@@ -33,23 +33,26 @@
     max-width: 1000px;
     background-color: white;
 }
-.big-logo {
-    flex: 0 0 auto;
-    margin-right: 50px;
-}
 
 .story {
     flex : 1;
    
 }
 
-h2 {
-    margin-bottom: 15px;
+.story h2 {
+    margin-top: 50px;
 }
-p {
-    margin-bottom: 50px;
+.story p {
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
+.big-logo {
+    flex: 0 0 auto;
+    margin-right: 50px;
+}
+
+/* Video */
 .video {
     position: relative;
     height: 30rem;
@@ -78,10 +81,17 @@ p {
     color: white;
 }
 
-
-
-
 /* Expertise */
+
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+}
+.expertise-grid > div {
+    border: 1px solid gray;
+    padding: 10px; 
+}
 
 /* Team */
 
