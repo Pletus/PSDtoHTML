@@ -153,9 +153,6 @@ nav li {
     justify-content: space-evenly
 }
 
-.good-news {
-
-}
 
 fieldset {
     padding: 1rem;
@@ -164,19 +161,16 @@ fieldset {
 .companys-logos1 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 2rem;
 }
 
 .companys-logos2 {
-    padding-top: 2rem;
+    padding-top: 2.6rem;
     display: flex;
     flex-direction: column;
-    gap: 20px
+    gap: 3rem;
 }
 
-.logos {
-
-}
 
 /* MAIN END */
 
@@ -232,24 +226,34 @@ footer {
 
 .mapb-adress {
     display: flex;
-    margin-top: 3rem;
-}
-
-
-.third-block{
-   
-   
-
+    margin-top: 4rem;
 }
 
 .subscribe-and-map {
-   
+    padding-top: 4rem ;
+    display: flex;
+    gap: 1rem;
  
 }
 
+.button-for-footer {
+    color: white;
+    padding: 8px;
+    background-color: transparent;
+    
+}
+
+.button-for-footer2 {
+    padding: 8px;
+    width: 4.5rem;
+    opacity: 0.4;
+    
+}
+
 .socialmedia-icons {
-
-
+    display: flex;
+    padding-top: 2rem;
+    gap: 5px;
 }
 
 .last-row {
@@ -266,6 +270,7 @@ footer {
 .help-terms-privacy {
     display: flex;
     align-content: space-between;
+    gap: 3rem;
     
     
 
