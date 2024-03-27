@@ -6,14 +6,15 @@
 
 
 /* HEADER START */ 
+ 
 .containertop {
-    width 100%;
-} 
-header {
-    background-image: url('../assets for project1/photoshop/design-assets/bgk-header.png');
-    }
-.navbar {   margin: 20px auto;
-    max-width: 1000px;}
+    background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
+    display: flex;
+    flex-direction: column;}
+
+.navbar {   
+        margin: 15px auto;
+        padding: 20 px;} 
 
 #navbarlogo {float:left;
 }
@@ -33,12 +34,21 @@ nav li {
     padding-top: 20px;
 }
 
-.heroweare {display: flex; 
-            flex-wrap: wrap;
-            align-content:center; 
+.Weare{display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center; }
+
+.herowe {display: flex; 
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        color: white; 
         }
 
-.contentweare {align-content: center;}
+.contentweare {
+    align-content: center;
+    max-width: 20rem;}
 
 
 
