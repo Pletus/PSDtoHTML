@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 
 /* HEADER START */ 
 
@@ -36,6 +36,7 @@
 /* FOOTER START */
 
 footer {
+    padding: 2rem;
     background-image: url(./assets_for_project1/photoshop/design-assets/bgk-footer.png);
     background-size: cover;
     background-position: center;
@@ -43,28 +44,57 @@ footer {
 }
 
 .three-blocks-footer {
-
-
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .comp-logo-plus-lorem {
+    max-width: 25%;
+    
+   
+} 
 
-
+.only-for-flexing {
+    display: flex;
+    align-items: center;
+    
 }
+
+.tajam-letters-footer {
+    font-size: 2em;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.logo-img-for-footer {
+    padding-bottom: 2rem;
+    
+    
+}
+
 
 .second-block {
+   display: block; 
+}
 
+.mapb-adress {
+    margin-top: 2rem;
 
 }
 
-.third-block{
 
+.third-block{
+   
+   
 
 }
 
 .subscribe-and-map {
-
-
+   
+ 
 }
 
 .socialmedia-icons {
@@ -73,12 +103,21 @@ footer {
 }
 
 .last-row {
-
+    margin: 20px auto;
+    max-width: 1000px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
 
 }
 
 .help-terms-privacy {
-
+    display: flex;
+    align-content: space-between;
+    
+    
 
 }
 
