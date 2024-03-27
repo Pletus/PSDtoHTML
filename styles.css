@@ -5,6 +5,40 @@
 }
 
 /* HEADER START */ 
+.containertop {
+    width 100%;
+} 
+header {
+    background-image: url('../assets for project1/photoshop/design-assets/bgk-header.png');
+    }
+.navbar {   margin: 20px auto;
+    max-width: 1000px;}
+
+#navbarlogo {float:left;
+}
+ul {float:right;}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+li a {color: inherit;}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+.heroweare {display: flex; 
+            flex-wrap: wrap;
+            align-content:center; 
+        }
+
+.contentweare {align-content: center;}
+
 
 
 
