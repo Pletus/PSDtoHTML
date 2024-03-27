@@ -194,8 +194,11 @@ footer {
 
 .logo-img-for-footer {
     padding-bottom: 2rem;
-    
-    
+}
+
+.little-icons {
+    padding-bottom: 3rem;
+    padding-right: 1rem;
 }
 
 
@@ -204,8 +207,8 @@ footer {
 }
 
 .mapb-adress {
-    margin-top: 2rem;
-
+    display: flex;
+    margin-top: 3rem;
 }
 
 
