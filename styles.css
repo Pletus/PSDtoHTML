@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 
 /* HEADER START */ 
 
@@ -36,6 +36,7 @@
 /* FOOTER START */
 
 footer {
+    padding: 5rem 25rem 5rem 25rem;
     background-image: url(./assets_for_project1/photoshop/design-assets/bgk-footer.png);
     background-size: cover;
     background-position: center;
@@ -43,28 +44,31 @@ footer {
 }
 
 .three-blocks-footer {
-
-
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .comp-logo-plus-lorem {
-
-
+    max-width: 25%;
+    
+   
 }
 
 .second-block {
-
-
+   max-width: %;
+    
 }
 
 .third-block{
-
+   
+   
 
 }
 
 .subscribe-and-map {
-
-
+   
+ 
 }
 
 .socialmedia-icons {
@@ -73,12 +77,17 @@ footer {
 }
 
 .last-row {
-
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    
 
 }
 
 .help-terms-privacy {
-
+    display: flex;
+    align-content: space-around;
+    
 
 }
 
