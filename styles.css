@@ -82,16 +82,28 @@
 }
 
 /* Expertise */
-
+.expertise-title h2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.expertise-title p{
+    display: flex;
+    justify-content: center;
+}
 .expertise-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
+    margin: 20px auto;
+    max-width: 1000px;
 }
 .expertise-grid > div {
     border: 1px solid gray;
     padding: 10px; 
 }
+
+
 
 /* Team */
 
