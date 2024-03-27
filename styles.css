@@ -4,7 +4,42 @@
     box-sizing: border-box;
 }
 
+
 /* HEADER START */ 
+.containertop {
+    width 100%;
+} 
+header {
+    background-image: url('../assets for project1/photoshop/design-assets/bgk-header.png');
+    }
+.navbar {   margin: 20px auto;
+    max-width: 1000px;}
+
+#navbarlogo {float:left;
+}
+ul {float:right;}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+}
+
+li a {color: inherit;}
+
+nav li {
+    display: inline-block;
+    margin-left: 80px;
+    padding-top: 20px;
+}
+
+.heroweare {display: flex; 
+            flex-wrap: wrap;
+            align-content:center; 
+        }
+
+.contentweare {align-content: center;}
+
 
 
 
@@ -13,16 +48,201 @@
 /* MAIN START */
 
 /* our story */
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    color: lightblue;
+    text-decoration: none;
+    border: 1px solid lightblue;
+    font-weight: bold;
+}
+
+.our-story {
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+.story {
+    flex : 1;
+   
+}
+
+.story h2 {
+    margin-top: 50px;
+}
+.story p {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.big-logo {
+    flex: 0 0 auto;
+    margin-right: 50px;
+}
+
+/* Video */
+.video {
+    position: relative;
+    height: 30rem;
+    margin: auto;
+    background-image: url("./assets for project1/photoshop/design-assets/bgk-middle.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.play-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.play-box a {
+    display: block;
+}
+
+.watchstory-text {
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+}
 
 /* Expertise */
+.expertise-title h2{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.expertise-title p{
+    display: flex;
+    justify-content: center;
+}
+.expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+.expertise-grid > div {
+    border: 1px solid gray;
+    padding: 10px; 
+}
+
+
 
 /* Team */
 
 /* Contact */
 
+.contact {
+
+    
+}
+
+.companys-logos {
+
+
+}
+
 /* MAIN END */
 
 /* FOOTER START */
+
+footer {
+    padding: 2rem;
+    background-image: url(./assets_for_project1/photoshop/design-assets/bgk-footer.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.three-blocks-footer {
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.comp-logo-plus-lorem {
+    max-width: 25%;
+    
+   
+} 
+
+.only-for-flexing {
+    display: flex;
+    align-items: center;
+    
+}
+
+.tajam-letters-footer {
+    font-size: 2em;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+.logo-img-for-footer {
+    padding-bottom: 2rem;
+    
+    
+}
+
+
+.second-block {
+   display: block; 
+}
+
+.mapb-adress {
+    margin-top: 2rem;
+
+}
+
+
+.third-block{
+   
+   
+
+}
+
+.subscribe-and-map {
+   
+ 
+}
+
+.socialmedia-icons {
+
+
+}
+
+.last-row {
+    margin: 20px auto;
+    max-width: 1000px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.help-terms-privacy {
+    display: flex;
+    align-content: space-between;
+    
+    
+
+}
 
 /* FOOTER END */
 
