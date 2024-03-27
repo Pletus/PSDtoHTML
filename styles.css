@@ -145,12 +145,36 @@ nav li {
 /* Contact */
 
 .contact {
-
-    
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin: 20px auto;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-evenly
 }
 
-.companys-logos {
+.good-news {
 
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+.companys-logos1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.companys-logos2 {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+.logos {
 
 }
 
@@ -160,7 +184,7 @@ nav li {
 
 footer {
     padding: 2rem;
-    background-image: url(./assets_for_project1/photoshop/design-assets/bgk-footer.png);
+    background-image: url("./assets for project1/photoshop/design-assets/bgk-footer.png");
     background-size: cover;
     background-position: center;
     color: white;
@@ -194,8 +218,11 @@ footer {
 
 .logo-img-for-footer {
     padding-bottom: 2rem;
-    
-    
+}
+
+.little-icons {
+    padding-bottom: 3rem;
+    padding-right: 1rem;
 }
 
 
@@ -204,8 +231,8 @@ footer {
 }
 
 .mapb-adress {
-    margin-top: 2rem;
-
+    display: flex;
+    margin-top: 3rem;
 }
 
 
