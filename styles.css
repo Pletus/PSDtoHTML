@@ -118,19 +118,11 @@ nav li {
 /* MAIN START */
 
 /* our story */
-.learn-more-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: transparent;
-    color: lightblue;
-    text-decoration: none;
-    border: 1px solid lightblue;
-    font-weight: bold;
-}
+
 
 .our-story {
-    font-family: Arial, sans-serif;
-    font-size: 16 px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -142,12 +134,15 @@ nav li {
 .story {
     flex : 1;
    
-}
+}s
 
 .story h2 {
     margin-top: 50px;
 }
+
 .story p {
+    font-family: Arial, sans-serif;
+    color:rgb(180, 180, 180) ;
     margin-bottom: 40px;
     margin-top: 40px;
 }
@@ -156,6 +151,17 @@ nav li {
     flex: 0 0 auto;
     margin-right: 50px;
 }
+.learn-more-btn {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    padding: 15px 20px;
+    background-color: transparent;
+    color: rgb(138, 231, 224);
+    text-decoration: none;
+    border: 1px solid rgb(138, 231, 224);
+    font-weight: bold;
+}
+
 
 /* Video */
 .video {
@@ -187,17 +193,16 @@ nav li {
 }
 
 /* Expertise */
-/* .expertise {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-} */
+
 .expertise-title h2{
+    color: rgb(90, 90, 90);
     padding-top: 50px;
     display: flex;
     justify-content: center;
+
 }
 .expertise-title p{
+    color:rgb(180, 180, 180) ;
     display: flex;
     justify-content: center;
 }
@@ -214,20 +219,51 @@ nav li {
     padding: 20px 0 50px 0;
 }
 .expertise-grid h5 {
+    color:rgb(90, 90, 90);
     padding: 10px;
     font-weight: 800;
 }
+.expertise-grid p {
+    color:rgb(180, 180, 180);
+}
+
 .expertise-grid > div {
     padding: 25px; 
 }
-.expertise-grid {
+
+.web-box {
+    border-bottom: 1px  solid  rgb(218, 218, 218) ;
+    border-right: 1px  solid rgb(218, 218, 218) ;
+
+}
+
+.branding-box {
+    border-bottom: 1px  solid  rgb(218, 218, 218) ;
+    border-right: 1px  solid rgb(218, 218, 218) ;
+
+}
+
+.mobile-box {
+    border-bottom: 1px  solid  rgb(218, 218, 218) ;
+
+}
+
+.search-box {
+    border-right: 1px  solid rgb(218, 218, 218) ;
+
+}
+.game-box {
+    border-right: 1px  solid rgb(218, 218, 218) ;
+
+}
+/* .expertise-grid {
     border-top: 1px solid white;
     border-bottom: 1px solid white;
 }
 .expertise-grid > div {
     border-left: 1px solid white;
     border-right: 1px solid red;
-}
+} */
 
 
 /* Team */
@@ -322,9 +358,9 @@ nav li {
     display: inline-block;
     padding: 10px 20px;
     background-color: transparent;
-    color: lightblue;
+    color: rgb(138, 231, 224);
     text-decoration: none;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(138, 231, 224);
     
 }
 
