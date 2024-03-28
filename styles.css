@@ -13,6 +13,7 @@
         background-size:  cover;
         background-position: center;
         height: 33rem;
+        font-family: Arial, sans-serif;
     }
 
 .containertop {
@@ -78,7 +79,10 @@ nav ul li a {
 .contentweare 
     {align-content: center;
     margin:10px 10px 30px 10px;
-    text-align: center;}
+    text-align: center;
+    line-height: 1.7em;
+    font-weight: 100; 
+}
 
 .headerbutton {
     font-weight: bold;
@@ -87,9 +91,15 @@ nav ul li a {
     background-color: transparent;
     text-decoration: none;
     color: lightblue;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(24, 212, 202);
     margin: 25px;
     }
+.headerbutton a {    
+    color: rgb(24, 212, 202);
+    text-decoration: none;
+    font-weight: 700;
+}
+
 /* 
 .containertop {
     background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
