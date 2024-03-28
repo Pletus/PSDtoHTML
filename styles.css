@@ -78,7 +78,9 @@ nav ul li a {
 .contentweare 
     {align-content: center;
     margin:10px 10px 30px 10px;
-    text-align: center;}
+    text-align: center;
+    line-height: 1.7em;
+    font-weight: 100; }
 
 .headerbutton {
     font-weight: bold;
@@ -87,8 +89,13 @@ nav ul li a {
     background-color: transparent;
     text-decoration: none;
     color: lightblue;
-    border: 1px solid lightblue;
+    border: 1px solid aqua;
     margin: 25px;
+    }
+
+    .headerbutton a {
+        text-decoration: none;
+        color: aqua;
     }
 /* 
 .containertop {
