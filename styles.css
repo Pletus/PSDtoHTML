@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-
 /* HEADER START */ 
  
 
@@ -489,6 +488,13 @@ footer {
     font-size: 2em;
     padding-left: 25px;
     padding-bottom: 25px;
+    background-image: linear-gradient(45deg, #4ba3a3, #437297);
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 }
 
 .logo-img-for-footer {
