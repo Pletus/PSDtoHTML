@@ -418,8 +418,6 @@ footer {
 
 .comp-logo-plus-lorem {
     max-width: 25%;
-    
-   
 } 
 
 .only-for-flexing {
@@ -463,24 +461,20 @@ footer {
     padding: 10px;
     background-color: transparent;
     color: white;
-
 }
  
 .button-for-footer2 {
     width: 4rem;
     background-color: rgba(250, 249, 249, 0.5);
-    
     padding-top: 4rem ;
     display: flex;
     gap: 1rem;
- 
 }
 
 .button-for-footer {
     color: white;
     padding: 8px;
     background-color: transparent;
-    
 }
 
 .button-for-footer2 {
@@ -489,14 +483,12 @@ footer {
     padding: 8px;
     width: 4rem;
     opacity: 0.4;
-    
 }
 
 .socialmedia-icons {
     margin-top: 3rem;
     display: flex;
     gap: 1rem;
-
 }
 
 .last-row {
@@ -506,7 +498,6 @@ footer {
     padding-right: 3rem;
     display: flex;
     justify-content: space-between;
-    
 }
 
 .help-terms-privacy {
