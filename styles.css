@@ -7,6 +7,67 @@
 
 /* HEADER START */ 
  
+
+.headerheader
+    /* {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');} */
+        {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
+        background-size:  cover;
+        background-position: center;
+        height: 20rem;
+    }
+
+.containertop {
+    margin: 20px auto;
+    max-width: 1000px;
+    margin: 20px auto;
+    max-width: 1000px; 
+    
+}
+.tajam{
+    display: flex;
+    align-items: center;
+}
+.tajam p {
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+    color: aqua;
+}
+#navbarlogo{
+    width: 50px;
+    height: auto;
+}
+nav {
+    margin-left: auto;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a {
+    color: rgb(85, 84, 84);
+    text-decoration: none;
+    font-weight: 700;
+}
+ .heroweare {display: flex;
+            flex-wrap: wrap;
+            align-content:center; 
+            justify-content: center;
+            max-width: 40 rem;
+        }
+.contentweare {align-content: center;}
+
+.ghost-button-learn { 
+    display: inline-block; 
+    width: 200px; padding: 8px; 
+    color: #31b6ab; border: 1px solid #31b6ab; 
+    text-align: center; 
+    outline: none; 
+    text-decoration: none; }
+/* 
 .containertop {
     background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
     display: flex;
@@ -49,7 +110,7 @@ nav li {
 .contentweare {
     align-content: center;
     max-width: 20rem;}
-
+ */
 
 
 
