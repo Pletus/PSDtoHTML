@@ -64,8 +64,8 @@ nav ul li a {
 
 .Weare::after 
     {content:'';
-    height: 1.5px;
-    width: 30%;
+    height: 1px;
+    width: 20%;
     background-color:aqua;
     
     display: flex;
