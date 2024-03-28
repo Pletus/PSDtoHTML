@@ -51,7 +51,7 @@ nav li {
 .learn-more-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: white;
+    background-color: transparent;
     color: lightblue;
     text-decoration: none;
     border: 1px solid lightblue;
@@ -90,7 +90,7 @@ nav li {
 /* Video */
 .video {
     position: relative;
-    height: 30rem;
+    height: 50rem;
     margin: auto;
     background-image: url("./assets for project1/photoshop/design-assets/bgk-middle.png");
     background-size: cover;
@@ -117,6 +117,11 @@ nav li {
 }
 
 /* Expertise */
+/* .expertise {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+} */
 .expertise-title h2{
     padding-top: 50px;
     display: flex;
@@ -127,20 +132,132 @@ nav li {
     justify-content: center;
 }
 .expertise-grid {
+    font-family: Arial, sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 0px;
     margin: 20px auto;
     max-width: 1000px;
+    padding: 20px 0 50px 0;
+}
+.expertise-grid h5 {
+    padding: 10px;
+    font-weight: 800;
 }
 .expertise-grid > div {
-    border: 1px solid gray;
-    padding: 10px; 
+    padding: 25px; 
 }
-
+.expertise-grid {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.expertise-grid > div {
+    border-left: 1px solid white;
+    border-right: 1px solid red;
+}
 
 
 /* Team */
+.meet-team {
+    position: relative;
+    height: 50rem;
+    margin: auto;
+    background-image: url("./assets for project1/photoshop/design-assets/bgk-header.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.title-team { 
+    font-size: 12 px;
+    color: white;
+    padding: 30px;
+    
+}
+.title-team h2 {
+    padding: 40px 0px 8px 0px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.title-team p{
+    display: flex;
+    justify-content: center;
+}
+
+.team-box {
+    display: flex;
+    margin: 0px auto 0px auto ;
+    max-width: 1000px;
+}
+
+.framebox {
+    flex: 1;
+    position: relative;
+    margin: 0 10px;
+    background-color: white;
+    height: 250px;
+    border: 1px solid white;
+}
+
+.box {
+    flex: 1;
+    position: relative;
+    margin: 0 10px;
+    background-color: transparent;
+    height: 100px;
+    border: 1px solid white;
+}
+  
+
+.team-name {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    color: white;
+}
+  
+.team-name h2 {
+    margin: 0;
+}
+  
+.team-name p {
+    margin: 0;
+}
+
+.we-hiring {
+    font-family: Arial, sans-serif;
+    font-size: 16 px;
+    margin: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.we-hiring p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.we-hiring a {
+    margin-top: auto;
+}
+
+.hiring-btn{
+   
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: lightblue;
+    text-decoration: none;
+    border: 1px solid lightblue;
+    
+}
+
 
 /* Contact */
 
