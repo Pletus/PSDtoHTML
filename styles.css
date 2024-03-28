@@ -9,7 +9,6 @@
  
 
 .headerheader
-    /* {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');} */
         {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
         background-size:  cover;
         background-position: center;
@@ -48,7 +47,7 @@ nav ul li {
     margin-right: 20px;
 }
 nav ul li a {
-    color: rgb(85, 84, 84);
+    color: rgb(250, 247, 247);
     text-decoration: none;
     font-weight: 700;
 }
