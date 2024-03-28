@@ -537,9 +537,11 @@ footer {
 }
 
 .button-for-footer {
-    color: white;
+    color: #9c99b1;
     padding: 8px;
     background-color: transparent;
+    border-color: #9c99b1;
+    border-style: solid;
 }
 
 .button-for-footer2 {
@@ -553,7 +555,7 @@ footer {
 .socialmedia-icons {
     margin-top: 3rem;
     display: flex;
-    gap: 1rem;
+    gap: 5px;
 }
 
 .last-row {
@@ -568,6 +570,15 @@ footer {
 .help-terms-privacy {
     display: flex;
     gap: 3rem;
+}
+
+.footer-lorem-text {
+    color: #c2c1cc;
+    
+}
+
+.last-row-text {
+    font-size: 12px;
 }
 
 /* FOOTER END */
