@@ -12,19 +12,20 @@
         {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
         background-size:  cover;
         background-position: center;
-        height: 20rem;
+        height: 33rem;
     }
 
 .containertop {
-    margin: 20px auto;
     max-width: 1000px;
     margin: 20px auto;
     max-width: 1000px; 
     
 }
 .tajam{
+
     display: flex;
     align-items: center;
+    margin: 20px;
 }
 .tajam p {
     justify-content: space-between;
@@ -56,16 +57,39 @@ nav ul li a {
             align-content:center; 
             justify-content: center;
             max-width: 40 rem;
+            color: white;
+            margin: 65px;
         }
-.contentweare {align-content: center;}
+.Weare {margin: 20px;}
 
-.ghost-button-learn { 
-    display: inline-block; 
-    width: 200px; padding: 8px; 
-    color: #31b6ab; border: 1px solid #31b6ab; 
-    text-align: center; 
-    outline: none; 
-    text-decoration: none; }
+.Weare::after 
+    {content:'';
+    height: 1px;
+    width: 20%;
+    background-color:aqua;
+    
+    display: flex;
+        flex-wrap: wrap;
+    align-content:center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.contentweare 
+    {align-content: center;
+    margin:10px 10px 30px 10px;
+    text-align: center;}
+
+.headerbutton {
+    font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    color: lightblue;
+    border: 1px solid lightblue;
+    margin: 25px;
+    }
 /* 
 .containertop {
     background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
