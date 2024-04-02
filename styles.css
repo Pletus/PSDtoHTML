@@ -105,6 +105,13 @@ nav ul li a {
     margin: 25px;
     }
 
+
+    .headerbutton a {
+        text-decoration: none;
+        color: aqua;
+    }
+
+
     .headerbutton a {
         text-decoration: none;
         color: aqua;
