@@ -1,24 +1,28 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto&display=swap')
+</style>
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 /* HEADER START */ 
  
-
 .headerheader
         {background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
         background-size:  cover;
         background-position: center;
         height: 33rem;
+        padding-top:0;
+        margin-top:0;
     }
 
 .containertop {
     max-width: 1000px;
     margin: 20px auto;
-    max-width: 1000px; 
     
 }
 .tajam{
@@ -26,12 +30,16 @@
     display: flex;
     align-items: center;
     margin: 20px;
-}
+    font-family: 'Roboto', sans-serif;
+    }
+
 .tajam p {
+    background: -webkit-linear-gradient(45deg, #4BA3A3, #437297);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     justify-content: space-between;
     font-family: Arial, sans-serif;
-    font-size: 16 px;
-    color: aqua;
+    font-size: 20px;
 }
 #navbarlogo{
     width: 50px;
@@ -50,8 +58,13 @@ nav ul li {
 nav ul li a {
     color: rgb(250, 247, 247);
     text-decoration: none;
-    font-weight: 700;
+    font-weight: 600;
+    font-size: 15px;
 }
+
+#firstnavbutton {color:#37b8c7;
+}
+
  .heroweare {display: flex;
             flex-wrap: wrap;
             align-content:center; 
@@ -80,7 +93,9 @@ nav ul li a {
     margin:10px 10px 30px 10px;
     text-align: center;
     line-height: 1.7em;
-    font-weight: 100; }
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif; 
+    }
 
 .headerbutton {
     font-weight: bold;
