@@ -1,7 +1,4 @@
 
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Roboto&display=swap')
-</style>
 
 * {
     margin: 0;
@@ -108,56 +105,17 @@ nav ul li a {
     margin: 25px;
     }
 
+
     .headerbutton a {
         text-decoration: none;
         color: aqua;
     }
-/* 
-.containertop {
-    background-image: url('./assets for project1/photoshop/design-assets/bgk-header.png');
-    display: flex;
-    flex-direction: column;}
-
-.navbar {   
-        margin: 15px auto;
-        padding: 20 px;} 
-
-#navbarlogo {float:left;
-}
-ul {float:right;}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    color: white;
-}
-
-li a {color: inherit;}
-
-nav li {
-    display: inline-block;
-    margin-left: 80px;
-    padding-top: 20px;
-}
-
-.Weare{display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center; }
-
-.herowe {display: flex; 
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        color: white; 
-        }
-
-.contentweare {
-    align-content: center;
-    max-width: 20rem;}
- */
 
 
+    .headerbutton a {
+        text-decoration: none;
+        color: aqua;
+    }
 
 /* HEADER END */
 
